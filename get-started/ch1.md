@@ -31,7 +31,7 @@ In other words, JavaScript was a marketing ploy to try to position this language
 
 There are some superficial resemblances between JavaScript's code and Java code. But those are actually mostly from a common root: C (and to an extent, C++).
 
-For example, we use the `{` to begin a block of code and the `}` to end that block of code, just like C/C++ and Java. We also use the `;` to punctuate the end of a statment.
+For example, we use the `{` to begin a block of code and the `}` to end that block of code, just like C/C++ and Java. We also use the `;` to punctuate the end of a statement.
 
 In fact, the relationships run even deeper than the superficial. Oracle (via Sun), the company that still owns and runs Java, also owns the official trademark for the name "JavaScript" (via Netscape). This trademark is almost never enforced, and likely couldn't be at this point.
 
@@ -138,7 +138,7 @@ gotcha();                // ??
 
 While this may seem straightforward logically (print "One!"), the reality is much uglier. There are **many** different variations of this scenario, and each variation has slightly different semantics.
 
-The best advice for navigating these kinds of Appendix B *gotchas* is to avoid using the constructs at all. Never declare functions in block scopes (like `if` statments), only in function scopes.
+The best advice for navigating these kinds of Appendix B *gotchas* is to avoid using the constructs at all. Never declare functions in block scopes (like `if` statements), only in function scopes.
 
 ### Not All (Web) JS...
 
